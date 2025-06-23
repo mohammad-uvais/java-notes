@@ -21,5 +21,53 @@ public class Main {
         char myLetter = 'D'; // Declare a character variable
         boolean myBool = true; // Declare a boolean variable
         String myText = "Hello"; // Declare a string variable
+
+        // Print Variables
+        String firstName = "John";
+        String lastName = "Doe";
+        String fullName = firstName + " " + lastName; // Concatenate first and last names
+        System.out.println(fullName); // Print the full name
+
+        int x = 5;
+        int y = 6;
+        System.out.println(x + y); // Print the sum of x and y
+
+        // Multiple Variables
+        int a = 5, b = 6, c = 7; // Declare multiple variables in one line
+        System.out.println(a + b + c); // Print the sum of a, b, and c
+
+        int i, j, k; // Declare multiple variables without initialization
+        i = j = k = 50; // Initialize all variables to 50
+        System.out.println(i + j + k); // Print the sum of i, j, and k
+
+        // Identifiers
+        int minutesPerHour = 60; // Valid identifier
+        int $dollarSign = 100; // Valid identifier with a dollar sign
+        int _underscore = 200; // Valid identifier with an underscore
+        // int 1stNumber = 10; // Invalid identifier, cannot start with a number
+        // int my-variable = 30; // Invalid identifier, cannot contain a hyphen
+
+        // Real-Life Examples
+        //// Student data
+        String studentName = "Alice";
+        int studentID = 12345;
+        int studentAge = 20;
+        float studentFee = 1500.75f;
+        char studentGrade = 'A';
+        //// Print variables
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Student ID: " + studentID);
+        System.out.println("Student Age: " + studentAge);
+        System.out.println("Student Fee: " + studentFee);
+        System.out.println("Student Grade: " + studentGrade);
+
+        // Calculate area of a rectangle
+        int length = 10; // Length of the rectangle
+        int width = 5; // Width of the rectangle
+        int area;
+        area = length * width; // Calculate the area
+        System.out.println("Length: " + length);
+        System.out.println("Width: " + width);
+        System.out.println("Area of the rectangle: " + area); // Print the area
     }
 }
