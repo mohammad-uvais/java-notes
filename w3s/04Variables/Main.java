@@ -15,13 +15,6 @@ public class Main {
         // myFinalNum = 20; // Uncommenting this line would result in a compilation
         // error
 
-        // Other variable types
-        int myIntNum = 5;
-        float myFloatNum = 5.99f; // Declare a float variable
-        char myLetter = 'D'; // Declare a character variable
-        boolean myBool = true; // Declare a boolean variable
-        String myText = "Hello"; // Declare a string variable
-
         // Print Variables
         String firstName = "John";
         String lastName = "Doe";
@@ -41,9 +34,9 @@ public class Main {
         System.out.println(i + j + k); // Print the sum of i, j, and k
 
         // Identifiers
-        int minutesPerHour = 60; // Valid identifier
-        int $dollarSign = 100; // Valid identifier with a dollar sign
-        int _underscore = 200; // Valid identifier with an underscore
+        // int minutesPerHour = 60; // Valid identifier
+        // int $dollarSign = 100; // Valid identifier with a dollar sign
+        // int _underscore = 200; // Valid identifier with an underscore
         // int 1stNumber = 10; // Invalid identifier, cannot start with a number
         // int my-variable = 30; // Invalid identifier, cannot contain a hyphen
 
