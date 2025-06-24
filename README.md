@@ -1,2 +1,3 @@
 # java
-Java Tutorials and Notes
+
+Java Tutorials Notes for Learning Purpose.
