@@ -1,4 +1,4 @@
-public class Main {
+public class DataTypes {
     public static void main(String[] args) {
         // Primary Data Types
         // Number Types

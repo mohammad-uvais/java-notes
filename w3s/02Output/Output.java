@@ -1,4 +1,4 @@
-public class Main {
+public class Output {
     public static void main(String[] args) {
         // Print Text
         System.out.print("Hello, World! ");

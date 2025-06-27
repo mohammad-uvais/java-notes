@@ -1,10 +1,13 @@
 
-public class Main {
+public class Operators {
     public static void main(String[] args) {
         // Operators are used to perform operations on variables and values.
         int sum1 = 100 + 50;
         int sum2 = sum1 + 250;
         int sum3 = sum2 + sum2;
+        System.out.println("Sum1: " + sum1);
+        System.out.println("Sum2: " + sum2);
+        System.out.println("Sum3: " + sum3);
 
         // Java divides the operators into the following groups;
         // 1. Arithmetic Operators

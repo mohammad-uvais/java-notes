@@ -1,4 +1,4 @@
-public class Main {
+public class Variables {
     public static void main(String[] args) {
         String name = "John"; // Declare a variable named 'name' and assign it the value "John"
         System.out.println("Hello, " + name + "!"); // Print a greeting message using the variable 'name'

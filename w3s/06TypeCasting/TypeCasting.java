@@ -1,5 +1,5 @@
 
-public class Main {
+public class TypeCasting {
     public static void main(String[] args) {
         // Type Casting in Java
         // Type casting is the process of converting a variable from one type to
