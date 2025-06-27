@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         // Primary Data Types
         // Number Types
