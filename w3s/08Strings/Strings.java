@@ -21,6 +21,9 @@ public class Strings {
         String name = "Alice";
         String welcomeMessage = greeting + " Welcome, " + name + "!";
         System.out.println(welcomeMessage); // Outputs: Hello, World! Welcome, Alice!
+        // You can also use the concat() method to concatenate two strings
+        String anotherMessage = greeting.concat(" How are you?");
+        System.out.println(anotherMessage); // Outputs: Hello, World! How are you?
 
         // Converting to uppercase and lowercase
         String upperCaseGreeting = greeting.toUpperCase();
@@ -41,5 +44,9 @@ public class Strings {
         for (String word : words) {
             System.out.println(word); // Outputs each word on a new line
         }
+
+        // Special characters in strings
+        String specialChars = "This is a backslash: \\, and this is a double quote: \"";
+        System.out.println(specialChars); // Outputs: This is a backslash: \, and this is a double quote: "
     }
 }
